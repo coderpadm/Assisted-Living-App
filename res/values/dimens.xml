@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="explist_layout_width">240dp</dimen>
+    
+    <dimen name="border_height">20dp</dimen>
+    
+    <dimen name="counter_bg_right">3dp</dimen>
+    <dimen name="counter_bg_left">3dp</dimen>
+    <dimen name="counter_bg_radius">2dp</dimen>
+    
+    <dimen name="exp_list_layout_width">240dp</dimen>
+    <dimen name="exp_list_divider_height">1dp</dimen>
+    
+    <dimen name="eula_rel_layout_margin_top">20dp</dimen>
+    <dimen name="eula_header_layout_margin">10dp</dimen>
+    <dimen name="eula_layout_margin_top">50dp</dimen>
+    <dimen name="eula_text_size">12sp</dimen>
+    <dimen name="eula_padding">10dp</dimen>
+    <dimen name="eula_button_text_size">12sp</dimen>
+    <dimen name="eula_footer_layout_margin">10dp</dimen>
+    
+    <dimen name="drawer_icon_layout_width">25dp</dimen>
+    <dimen name="drawer_icon_layout_margin_left">5dp</dimen>
+    <dimen name="drawer_icon_layout_margin_right">12dp</dimen>
+    <dimen name="drawer_title_padding_right">40dp</dimen>
+      
+    <dimen name="header_text_size">27sp</dimen>
+    <dimen name="header_layout_margin">5dp</dimen>
+    
+    <dimen name="footer_about_carr_text_size">20sp</dimen>
+    <dimen name="footer_about_carr_layout_margin">5dp</dimen>
+    <dimen name="footer_about_dev_text_size">20sp</dimen>
+    <dimen name="footer_about_dev_layout_margin">5dp</dimen>
+    
+    
+    <dimen name="carr_term_text_size">25sp</dimen>
+    <dimen name="term_text_size">25sp</dimen>
+    <dimen name="home_text_size">24sp</dimen>
+    
+    <dimen name="group_list_rel_layout_height">48dp</dimen>
+    <dimen name="group_list_title_padding_right">40dp</dimen>
+    
+    <dimen name="list_lin_layout_height">55dp</dimen>
+    <dimen name="list_item_text_size">17sp</dimen>
+    <dimen name="list_item_padding_top">5dp</dimen>
+    <dimen name="list_item_padding_bottom">5dp</dimen> 
+    <dimen name="list_item_padding_right">40dp</dimen>
+    
+    <dimen name="pager_gloss_def_layout_margin_top">20dp</dimen>
+    <dimen name="pager_gloss_def_layout_margin_Left">5dp</dimen>
+    <dimen name="pager_gloss_def_layout_margin_Right">5dp</dimen>
+    <dimen name="pager_gloss_def_layout_margin_Bottom">5dp</dimen>
+    <dimen name="pager_gloss_def_padding">5dp</dimen>
+    <dimen name="pager_gloss_text_size">17sp</dimen>
+    
+
+    <dimen name="first_text_home_layout_margin">20dp</dimen>
+    <dimen name="first_text_home_padding">10dp</dimen>
+    <dimen name="second_text_home_layout_margin">10dp</dimen>
+    <dimen name="second_text_home_layout_padding">10dp</dimen>
+    <dimen name="third_text_home_layout_margin">10dp</dimen>
+    
+    <dimen name="img_home_layout_margin">10dp</dimen>
+    <dimen name="img_carr_layout_margin">10dp</dimen>
+ 
+    <dimen name="first_text_home_layout_margin_land">20dp</dimen>
+    <dimen name="first_text_home_padding_land">15dp</dimen>
+    <dimen name="second_text_home_layout_margin_land">5dp</dimen>
+    <dimen name="second_text_home_layout_padding_land">5dp</dimen>
+    <dimen name="third_text_home_layout_margin_land">5dp</dimen>
+    
+    <dimen name="img_home_layout_margin_land">5dp</dimen>
+    <dimen name="img_carr_layout_margin_land">5dp</dimen>
+    
+    <dimen name="term_layout_margin">5dp</dimen>
+    <dimen name="term_padding">5dp</dimen>
+    
+    <dimen name="carr_term_layout_margin">5dp</dimen>
+    <dimen name="carr_term_padding">5dp</dimen>
+    
+   
+    
+
+</resources>

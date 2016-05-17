@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+
+    <ImageView
+        android:id="@+id/imgViewGloss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:contentDescription="@string/desc_carr_image"
+        
+        
+         />
+   <ScrollView
+       android:layout_below="@id/imgViewGloss"
+        android:layout_marginTop="@dimen/pager_gloss_def_layout_margin_top"
+        android:layout_marginLeft="@dimen/pager_gloss_def_layout_margin_Left"
+        android:layout_marginRight="@dimen/pager_gloss_def_layout_margin_Right"
+        android:layout_marginBottom="@dimen/pager_gloss_def_layout_margin_Bottom"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/txtViewGlossDef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:padding="@dimen/pager_gloss_def_padding"
+        android:textSize="@dimen/pager_gloss_text_size" 
+         />
+    
+   </ScrollView>
+    
+
+</RelativeLayout>
+

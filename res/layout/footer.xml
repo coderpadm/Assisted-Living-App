@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width=  "match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+   
+    android:background="@color/footer_background"
+    android:gravity="center"
+    android:name=".Footer"
+    
+     >
+
+    <TextView
+        android:id="@+id/txtViewAboutCARR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/footer_about_carr_layout_margin"
+        android:text="@string/about_carr_link"
+        android:textColor="@color/footer_about_carr_text_color"
+        android:textSize="@dimen/footer_about_carr_text_size"
+       
+         />
+
+    <ImageView
+        android:id="@+id/imgViewFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/desc_footer_logo"
+        android:src="@drawable/ic_carr" />
+
+    <TextView
+        android:id="@+id/txtViewAboutDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        
+        android:layout_margin="@dimen/footer_about_dev_layout_margin"
+        android:layout_toRightOf="@+id/txtViewAboutCARR"
+        android:text="@string/about_dev_link"
+        android:textColor="@color/footer_about_dev_text_color"
+        android:textSize="@dimen/footer_about_dev_text_size" />
+
+</RelativeLayout>

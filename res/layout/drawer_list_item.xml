@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/list_selector"
+   >
+    <ImageView
+        android:id="@+id/imgViewIcon"
+        android:layout_width="@dimen/drawer_icon_layout_width" 
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/drawer_icon_layout_margin_left"
+        android:layout_marginRight="@dimen/drawer_icon_layout_margin_right"
+        android:contentDescription="@string/desc_list_item_icon"
+        android:src="@drawable/ic_home"
+        android:layout_centerVertical="true"
+        >
+    </ImageView>
+    
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/imgViewIcon"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@color/list_item_title"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/drawer_title_padding_right"
+        >
+        
+    </TextView>
+        
+    <TextView
+        android:id="@+id/txtViewCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/counter_bg"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/counter_text_color"
+        >
+        
+    </TextView>
+    
+
+</RelativeLayout>

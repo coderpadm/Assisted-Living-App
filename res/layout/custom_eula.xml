@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewEULA"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+     android:fillViewport="true"
+   >
+
+    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+           
+
+        <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center|fill" 
+	    android:layout_marginTop="@dimen/eula_rel_layout_margin_top" 
+	   >
+
+            <TextView
+                android:id="@+id/txtViewEulaHeader"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_margin="@dimen/eula_header_layout_margin"
+	       
+	        android:textStyle="bold"
+	        android:gravity="center"
+	        android:background="@drawable/border"  />
+
+	    <TextView
+	        android:id="@+id/txtEula"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="@dimen/eula_padding"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="@dimen/eula_layout_margin_top"
+	        android:gravity="left"
+	        android:background="@drawable/bground"
+	     
+	       
+	        android:textSize="@dimen/eula_text_size" />
+
+	    <Button
+	        android:id="@+id/btnDialogOK"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/txtEula"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="@dimen/eula_button_text_size" 
+	        android:textStyle="bold"
+	        android:background="@color/list_background_pressed"
+	        android:text="@string/button_text" />
+
+	    <ImageView
+	        android:id="@+id/imgViewFooter"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/btnDialogOK"
+	        android:layout_margin="@dimen/eula_footer_layout_margin"
+	        android:contentDescription="@string/desc_eula_footer"
+	        android:src="@drawable/border" />
+
+	</RelativeLayout>
+           
+        </LinearLayout>
+    
+</ScrollView>

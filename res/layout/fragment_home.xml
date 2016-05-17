@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewEULA"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:fillViewport="true"
+   >
+
+    
+
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:orientation="vertical"
+ >
+<include layout="@layout/header"/>
+<LinearLayout
+    
+   android:layout_width="match_parent"
+   android:layout_height="0dip"
+   android:layout_weight="1"
+   android:orientation="vertical"
+     >
+    
+   
+
+
+
+    <TextView
+        android:id="@+id/txtViewTitleHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/first_text_home_layout_margin"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/first_text_home_padding"
+        android:text="@string/first_text_home"
+        android:textSize="@dimen/home_text_size" />
+    
+    <ImageView
+        android:id="@+id/imgViewHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/img_home_layout_margin"
+        android:contentDescription="@string/desc_home_logo"
+        android:src="@drawable/ic_assis" />
+    
+     <TextView
+        android:id="@+id/txtViewFirstLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/second_text_home_layout_margin"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/second_text_home"
+        android:padding="@dimen/second_text_home_layout_padding"
+        android:textSize="@dimen/home_text_size" />
+     
+    <ImageView
+        android:id="@+id/imgViewCARR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/img_carr_layout_margin"
+        android:contentDescription="@string/desc_carr_logo"
+        android:src="@drawable/ic_carr_logo" />
+    
+    
+    <TextView
+        android:id="@+id/txtViewCARR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/third_text_home_layout_margin"
+        android:text="@string/carr_link"
+        android:textColor="@color/link_text_color"
+        android:textSize="@dimen/home_text_size"
+        android:textStyle="bold" />
+    
+</LinearLayout>
+ 
+    <include layout="@layout/footer" />
+</LinearLayout>
+</ScrollView>

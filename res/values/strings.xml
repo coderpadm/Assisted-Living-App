@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assisted Living 101</string>
+    <string name="action_settings">Settings</string>
+  
+
+ 
+    
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    
+    
+     
+     
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+      
+        <item>Care &amp; Supervision</item>
+        <item>Facility Practices</item>
+        <item>Medications</item>
+        <item>State Regulations</item>
+        <item>Inspection &amp; Enforcement</item>
+      
+    </string-array>
+  
+    <string-array name="nav_drawer_first_item">
+      
+        <item>Allowable Health Conditions</item>
+        <item>Basic Services</item>
+        <item>Bedrails</item>
+        <item>Bedridden</item>
+        <item>Bedridden Resident</item>
+        <item>Catheter Care</item>
+        <item>Colostomy/Ileostomy</item>
+        <item>Contractures</item>
+        <item>Hospice Care</item>
+        <item>Incontinence</item>
+        <item >Oxygen Administration (Gas and Liquid)</item>
+        <item>Postural Supports</item>
+        <item>Pressure Sores</item>
+        <item>Prohibited Health Conditions</item>
+        <item>Restricted Health Conditions</item>
+        <item>Staff - Personnel Requirements</item>
+        <item>Staffing an RCFE</item>
+        <item>Total Care Waiver</item>
+      
+    </string-array>
+    
+    <string-array name="nav_drawer_second_item">
+      
+        <item>Administrator</item>
+        <item>Eviction</item>
+        <item>Fire Marshal Clearance</item>
+        <item>Home Health Agency</item>
+        <item>Hospice Waiver</item>
+        <item>Insurance</item>
+        <item>Payment Options for Assisted Living</item>
+        <item>Safeguarding Resident\'s Case, Personal Property and Valuables</item>
+        <item>Visitations to Resident</item>
+      
+    </string-array>
+     <string-array name="nav_drawer_third_item">
+      
+        <item>Crushed Medications</item>
+        <item>Diabetes</item>
+        <item>Medication Management</item>
+        <item>Medications Centrally Stored</item>
+        <item>Medication Administration Training</item>
+        <item>Morphine</item>
+        <item>PRN Medication</item>
+        
+      
+    </string-array>
+     <string-array name="nav_drawer_fourth_item">
+      
+        <item>Admission Process</item>
+        <item>Application for a Facility</item>
+        <item>RCFE or Residential Care Facility for the Elderly</item>
+        <item>Refunds</item>
+        <item>Resident Rights</item>
+        <item>Restraints</item>
+        <item>Violation:&#160;&#160;Type A</item>
+        <item>Violation:&#160;&#160;Type B</item>
+        <item>Violation:&#160;&#160;Type C</item>
+        
+      
+    </string-array>
+     <string-array name="nav_drawer_fifth_item">
+      
+        <item>Civil Penalty</item>
+        <item>Complaint Investigations</item>
+        <item>Deficiency - Type A</item>
+        <item>Deficiency - Type B</item>
+        <item>Deficiency - Type C</item>
+        <item>Facility Evaluations</item>
+        <item>Substantial Compliance</item>
+      
+    </string-array>
+    <string-array name="nav_drawer_glossary">
+        <item>Activities of Daily Living (ADLs)</item>
+        <item>Ambulatory Person</item>
+        <item>Community Care Licensing Division (CCLD or CCL)</item>
+        <item>Capacity</item>
+        <item>Care and Supervision</item>
+        <item>Conservator</item>
+        <item>Criminal Record Clearance</item>
+        <item>Deficiency</item>
+        <item>Dementia</item>
+        <item>Do-Not-Resuscitate (DNR) Form</item>
+        <item>Delayed Egress</item>
+        <item>Egress Alert Device</item>
+        <item>Exceptions</item>
+        <item>FBI Clearance</item>
+        <item>Healing Wounds</item>
+        <item>Licensee</item>
+        <item>License</item>
+        <item>Licensing Program Analyst (LPA)</item>
+        <item>NonAmbulatory Person</item>
+        <item>Power of Attorney</item>
+        <item>POLST</item>
+        <item>Responsible Party</item>
+        <item>Supplemental Security Income (SSI)</item>
+        <item>Staff - Direct Care</item>
+        <item>Transfer Trauma</item>
+        <item>Universal Precautions</item>
+        <item>Waiver</item>
+    </string-array>
+     
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_nav</item>
+        <item>@drawable/ic_nav</item>
+        <item>@drawable/ic_nav</item>
+        <item>@drawable/ic_nav</item>
+        <item>@drawable/ic_nav</item>
+    </array>
+     
+   <string name="glossary_menu_title">glossary</string>
+   
+ 
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="desc_eula_footer">Footer</string>
+    <string name="desc_footer_logo">Sponsor logo</string>
+    <string name="desc_home_logo">Home screen Icon</string>
+    <string name="desc_carr_logo">CARR logo</string>
+    <string name="desc_carr_image">Glossary Icon</string>
+   
+    
+   
+    <string name="glossary">Glossary</string>
+    <string name="about_CARR">About CARR</string>
+    <string name="search">Search</string>
+    <string name="about_carr_link"><a href="http://www.rcfereform.org/">About CARR</a></string>
+    <string name="about_dev_link"><a href="https://www.linkedin.com/in/spadma/">About Developer</a></string>
+    <string name="carr_link"><a href="http://www.rcfereform.org/">www.rcfereform.org</a></string>
+    
+    <string name="search_hint">Search term</string>
+    <string name="description">Term description</string>
+    <string name="search_settings">Search CARR</string>
+   	<string name="title_activity_search">Search Result(s)</string>
+   	<string name="title_activity_carrterm">Description</string>
+   	
+   
+   	
+   	<string name="updates">"updates"
+   	</string>
+   
+   	<string name="button_text">OK</string>
+
+   	<string name="custom_eula_heading"><![CDATA[<b>CARR’s Assisted Living 101 Android App <br/>
+End User License Agreement (EULA)
+</b> ]]></string>
+   	<string name="custom_eula_formatted">
+<![CDATA[
+
+<p>
+YOU EXPRESSLY AGREE THAT YOUR USE OF THIS APPLICATION <b><i>IS AT YOUR OWN RISK</i></b>.  NO EXPRESS OR IMPLIED WARRANTIES OF ANY KIND EXTEND TO YOU.  CARR’S ‘ASSISTED LIVING 101’ ANDROID APP, HEREINAFTER KNOW AS “APPLICATION” AND ALL INFORMATION, CONTENT, AND MATERIALS INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THIS APPLICATION ARE PROVIDED BY CARR ON AN ‘AS IS’ BASIS.  CARR AND ITS DEVELOPER MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THIS APPLICATION, OR THE ACCURACY OF INFORMATION, CONTENT, OR MATERIALS INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THIS APPLICATION INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE AND CONSEQUENTIAL DAMAGES.
+</p>
+<p>
+TO THE FULL EXTENT PERMISSIBLE BY LAW, CARR AND ITS DEVELOPER DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY.  CARR AND ITS DEVELOPER DO NOT WARRANT THAT THIS APPLICATION, INFORMATION, CONTENT OR MATERIALS INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THIS APPLICATION ARE FREE FROM VIRUSES OR OTHER HARMFUL COMPONENTS. IN NO EVENT SHALL CARR AND ITS DEVELOPER, ITS AGENTS OR OFFICERS BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF INFORMATION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE MATERIALS, EVEN IF CARR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+</p>
+<p>
+CARR makes this Application available for <b><i>consumers’ entertainment and enjoyment only</i></b>.  Nothing in this Application is intended, nor will be construed, as medical advice, medical information, diagnosis, health recommendations or suggestions.  
+</p>
+<p>
+Except for the limited licensed granted in this EULA, CARR retains all right, title and interest in the Application and all proprietary rights in the Application, including copyrights and trademarks.
+</p>
+<p>
+PRIVACY: &nbsp CARR does not see, collect, store, or archive any data you enter into the Application.  Any and all information you enter into the Application is stored on your device and not on CARR’s website or server. Therefore, CARR and its developer are not responsible for any damages resulting from the loss or theft of that information.  Similarly, CARR AND its developer are not responsible or liable for loss, theft or misuse of any data that you choose to share, backup or store at any location or service.
+</p>
+<p>
+CHARGES: &nbsp While CARR does not charge for the use of this Application, normal carrier data fees may apply.  Please consult your carrier to understand any charges related to carrier data fees.
+</p>
+<p>
+NO ENDORSEMENT: &nbsp This Application may use various applications and services provided by your carrier or device.  The presence of these applications and services does not imply, and should not be interpreted as endorsement, sanctions, approval or authorization of these applications and services.  CARR and its developer make no guarantee or warranty, expressed or implied, concerning the functionality or accuracy of these applications and services.  
+</p>
+<p>
+NO SALES: &nbsp User agrees this above-named Application may not be sold to any third party, may not be reversed-engineered, nor modified without the prior and express written consent of CARR.  
+</p>
+
+LICENSE AGREEMENT CHANGES/PUBLICATIONS STATEMENT: &nbsp The Terms of Agreement for use of this Application are subject to change, without notice, upon public posting by CARR. 
+ ]]>
+  </string>
+
+    <string name="title_activity_glossary"> Glossary</string>
+   
+    
+    <string name="first_text_home">Consumer Advocates for RCFE Reform (CARR) presents</string>
+    <string name="second_text_home">a tool for understanding assisted living in California</string>
+    
+    <string name="search_suggest_authority">org.rcfereform.carr.carrcontentprovider</string>
+    <string name="search_suggest_intent_data">content://org.rcfereform.carr.carrcontentprovider/terms</string>
+    <string name="search_suggest_selection">_id like ?</string>
+    <string name="search_suggest_threshold">5</string>
+    
+   <string name="carr_nav_note">Please press the back button to go to the previous screen</string>
+ 
+</resources>
